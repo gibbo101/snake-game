@@ -570,7 +570,7 @@ document.addEventListener("DOMContentLoaded", function () {
             bonusFoodX = generateFoodRandom(pixelSize, gameBoard.width - (pixelSize * 2));
             bonusFoodY = generateFoodRandom(pixelSize, gameBoard.width - (pixelSize * 2));
             snake.forEach(function hasBonusSnakeEaten(part) {
-                let bonusSnakeEaten = part.x == bonusFoodX && part.y == bonusFoodX;
+                let bonusSnakeEaten = part.x == bonusFoodX && part.y == bonusFoodY;
                 if (bonusSnakeEaten) generateBonusFood();
             });
         } else {
