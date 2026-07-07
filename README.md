@@ -197,7 +197,7 @@ I deployed the website on GitHub pages via the following:
 1. The following message will appear:  **Your site is ready to be published**.
 1. After a few minutes the site will be published and the message will change to **Your site is published**.
 
-You can access the live site via the following link [A Game of Snake](https://lukegibson101.github.io/snake-game/).
+You can access the live site via the following link [A Game of Snake](https://gibbo101.github.io/snake-game/).
 
 
 ## **Credits**
